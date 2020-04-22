@@ -48,34 +48,96 @@ body {
   transform: rotate(-45deg);
 }
 
+.sidebtn{
+    margin-left: 28px;
+}
+
 .sidebtn:hover {
   transform: scale(1.6);
   transition: all 0.25s;
   cursor: pointer;
 }
 
-/* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+.sidebtn-collapse{
+    margin-left: 215px;
+}
+.sidebtn-collapse:hover{
+    transform: scale(1.6);
+    transition: all 0.25s;
+    cursor: pointer;
 }
 
+.sidenav-logo-collapse a{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: white;
+    font-size: 18px;
+    transition: 0.25s;
+}
+
+.sidenav-logo-collapse i{
+    padding-right: 20px;
+} 
+
+.dq-sm-logo{
+    margin-bottom: 30px;
+}
+.dq-lg-logo{
+    margin-left: 10px;
+}
+
+
+.sidenav-fixed{
+    background-color: #111;
+    width: 50px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    position: absolute;
+   flex-wrap: nowrap;
+}
+
+.sidenav-logo a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    transition: 0.25s;
+}
+
+.sidenav-logo a:hover{
+    transform: scale(1.5);
+    transition: 0.25s;
+    overflow: hidden;
+}
+
+.sidenav-collapse{
+    margin-left: 10px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+.sidenav-top a{
+    font-size: 18px;
+}
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+
+ 
   display: block;
-  transition: 0.3s;
+ 
 }
 
 /* When you mouse over the navigation links, change their color */
