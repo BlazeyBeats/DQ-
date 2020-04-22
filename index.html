@@ -8,19 +8,40 @@
     <!-- fontawesome 4.7 CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/paragraph.css">
     <title>DQ文章總攬</title>
 </head>
 <body>
     <header>
-        <div class="container header d-flex justify-content-center align-items-center">
+        <div id="notify">
+        <div  class="container header d-flex justify-content-center align-items-center">
             <nav class="nav d-flex nav-header">
-                <a class="nav-link text-dark" href="#">DQ地球圖輯隊精選文章不漏接</a>
+                <a class="nav-link text-dark" href="#">DQ 地球圖輯隊精選文章不漏接</a>
                 <button class="btn btn-light btn-outline-primary btn-notify">開啟通知</button>
-                <a href="#" class="close d-flex"></a>
+                <a href="#" id="close-notify" class="close"></a>
             </nav>
         </div>
+    </div>
     </header>
+    <sidebar>
+        <div id="mySidenav" class="sidenav">
+            <i class="fas fa-angle-left sidebtn text-light" onclick="closeNav()"></i>
+            <a href="#"><img src="" alt=""></a>
+            <a href="#">贊助我們</a>
+            <a href="#">文章總覽</a>
+            <a href="#">搜尋文章</a>
+            <a href="#">地球24小時</a>
+            <a href="#">地球商號</a>
+          </div>
+          
+          
+          <i class="fas fa-angle-right sidebtn" onclick="openNav()"></i>
+         
+          <div id="main">
+          
+          </div>
+    </sidebar>
 
 
 
@@ -29,5 +50,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+    <script src="./js/paragraph.js"></script>
 </body>
 </html>
