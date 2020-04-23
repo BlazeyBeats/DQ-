@@ -2,6 +2,26 @@ body {
   font-family: Open Sans, Microsoft JhengHei, sans-serif;
 }
 
+/* width */
+#mySidenav::-webkit-scrollbar {
+  width: 5px;
+  
+}
+
+
+ 
+/* Handle */
+#mySidenav::-webkit-scrollbar-thumb {
+  background: rgb(143, 143, 143); 
+}
+
+/* Handle on hover */
+#mySidenav::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: #555; 
+}
+
+
 /* top part where onclick will disappear */
 .header {
   height: 70px;
@@ -83,6 +103,18 @@ body {
   transition: 0.25s;
   overflow: hidden;
 }
+.sidenav-bottom{
+  padding-bottom: 80px;
+}
+
+.sidenav-img{
+  width: 230px;
+  height: 120px;
+}
+.sidenav-img img{
+  width: 230px;
+  object-fit: cover;
+}
 
 
 /* sidenav which will pop out */
@@ -157,6 +189,33 @@ body {
   transition: 0.25s;
 }
 
+.sidenav-collapse-bp{
+margin-left: 0px;
+margin-bottom: 0px;
+padding-left:10px;
+padding-top: 2px;
+padding-bottom:2px;
+font-size: 13px;
+letter-spacing: 3px;
+}
+
+.new-par{
+margin-top:20px;
+}
+
+.new-par em{
+  font-size: 10px;
+  margin-left:10px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  padding: 2px;
+  text-shadow: 1.5px 2px black;
+}
+.new-par p{
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-left:10px ;
+}
 
 
 /* The side navigation menu */
