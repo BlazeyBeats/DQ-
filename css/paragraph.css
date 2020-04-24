@@ -86,8 +86,9 @@ body {
   display: flex;
   flex-direction:column;
   align-items: center;
-  position: absolute;
  flex-wrap: nowrap;
+ position: fixed;
+  left: 0;
 }
 
 .sidenav-logo a{
@@ -107,14 +108,7 @@ body {
   padding-bottom: 80px;
 }
 
-.sidenav-img{
-  width: 230px;
-  height: 120px;
-}
-.sidenav-img img{
-  width: 230px;
-  object-fit: cover;
-}
+
 
 
 /* sidenav which will pop out */
@@ -217,13 +211,75 @@ margin-top:20px;
   margin-left:10px ;
 }
 
+.sidenav-img{
+  width: 230px;
+  height: 120px;
+}
+
+
+
+.sidenav-img-1{
+  background-image: url(/images/sidenav/sidenav1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.sidenav-img-2{
+  background-image: url(/images/sidenav/sidenav2.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.sidenav-img-3{
+  background-image: url(/images/sidenav/sidenav3.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.sidenav-img-4{
+  background-image: url(/images/sidenav/sidenav4.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.sidenav-img-5{
+  background-image: url(/images/sidenav/sidenav5.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.sidenav-img-6{
+  background-image: url(/images/sidenav/sidenav6.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.sidenav-collapse-middle a p{
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: start;
+  padding-top: 95px;
+  padding-left:10px ;
+  color: white;
+  text-shadow: 1px 1px black;
+  transition: 0.25s;
+  overflow: hidden;
+}
+
+.sidenav-collapse-middle a:hover > p{
+  transform: translateY(-20px);
+  transition: 0.25s;
+}
+
+
+
 
 /* The side navigation menu */
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  
   left: 0;
   background-color: #111;
   overflow-x: hidden;
