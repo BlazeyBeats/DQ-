@@ -123,7 +123,6 @@ body {
   padding-bottom: 60.5px;
 }
 
-
 /* sidenav which will pop out */
 .sidebtn-collapse{
     margin-left: 202px;
@@ -289,6 +288,70 @@ margin-top:20px;
 .sidenav-collapse-middle a:hover > p{
   transform: translateY(-20px);
   transition: 0.25s;
+}
+
+
+/* Sidenav dropout */
+.dropout:hover > .dropout-item{
+  visibility:visible ;
+}
+.dropout:hover > .dropout-item2{
+  visibility:visible ;
+}
+
+.dropout-item{
+  position: fixed;
+  margin-left:225px;
+  padding:3px ;
+  overflow: visible;
+  background-color: rgb(31, 31, 31);
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 3px;
+  visibility: hidden;
+  max-width: 150px;
+}
+
+.dropout-triangle{
+  position: absolute;
+  content: "";
+  width: 0;
+height: 0;
+margin-left:-12px ;
+margin-top:5px;
+border-style: solid;
+border-width: 5px 10px 5px 0;
+border-color: transparent #000000 transparent transparent;
+
+}
+
+.dropout-text{
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.dropout-item2{
+  position: fixed;
+  margin-left:240px;
+  padding:3px ;
+  overflow: visible;
+  background-color: rgb(31, 31, 31);
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 3px;
+  visibility: hidden;
+  max-width: 170px;
+}
+
+.dropout-triangle2{
+  position: absolute;
+  content: "";
+  width: 0;
+height: 0;
+margin-left:-12px ;
+margin-top:20px;
+border-style: solid;
+border-width: 5px 10px 5px 0;
+border-color: transparent #000000 transparent transparent;
+
 }
 
 
