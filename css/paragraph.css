@@ -108,12 +108,27 @@ body {
   padding-bottom: 80px;
 }
 
+.logo-sticky{
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
 
+.sticky-container{
+  width: 230px;
+  background-color:black;
+  height: 60px;
+  padding-top:24px;
+  padding-left:10px;
+  padding-bottom: 60.5px;
+}
 
 
 /* sidenav which will pop out */
 .sidebtn-collapse{
-    margin-left: 215px;
+    margin-left: 202px;
+    margin-top: -25px;
+    position: absolute;
 }
 .sidebtn-collapse:hover{
     transform: scale(1.6);
@@ -214,6 +229,7 @@ margin-top:20px;
 .sidenav-img{
   width: 230px;
   height: 120px;
+  margin-bottom:3px;
 }
 
 
@@ -252,7 +268,10 @@ margin-top:20px;
   background-image: url(/images/sidenav/sidenav6.jpg);
   background-repeat:no-repeat;
   background-size:cover;
+  margin-bottom:20px;
 }
+
+
 
 .sidenav-collapse-middle a p{
   font-size: 13px;
