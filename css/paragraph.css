@@ -299,9 +299,13 @@ margin-top:20px;
   visibility:visible ;
 }
 
+.sidenav-overflow{
+  position: relative;
+}
+
 .dropout-item{
-  position: fixed;
-  margin-left:225px;
+  position: absolute;
+  margin-left:200px;
   padding:3px ;
   overflow: visible;
   background-color: rgb(31, 31, 31);
