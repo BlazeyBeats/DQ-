@@ -6,6 +6,7 @@ $(document).ready(function(){
         window.onscroll = function() {
           if (window.pageYOffset >= 70){
               jQuery('.sidenav-fixed').css({position: 'fixed', left: '0', top: '0'});
+              
           }
           else {
               jQuery('.sidenav-fixed').css({position: 'fixed', left: '', top: ''});
