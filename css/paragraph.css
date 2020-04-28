@@ -456,4 +456,5 @@ border-color: transparent #000000 transparent transparent;
 #main {
   transition: margin-left 0.5s;
   padding: 20px;
+  padding-left: 100px;
 }
