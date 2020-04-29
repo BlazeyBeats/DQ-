@@ -6,23 +6,27 @@ $(document).ready(function(){
         window.onscroll = function() {
           if (window.pageYOffset >= 70){
               jQuery('.sidenav-fixed').css({position: 'fixed', left: '0', top: '0'});
-              
+              jQuery('.sidenav').css({position: 'fixed', left: '0', top: '0'});
           }
           else {
               jQuery('.sidenav-fixed').css({position: 'fixed', left: '', top: ''});
+              jQuery('.sidenav').css({position: 'fixed', left: '0', top: '0'});
           }
       };
         return elementClicked = 1;
     }); 
     if( elementClicked === 1 ) {
       jQuery('.sidenav-fixed').css({position: 'fixed', left: '0', top: '0'});
+      jQuery('.sidenav').css({position: 'fixed', left: '0', top: '0'});
     }else {
       window.onscroll = function() {
         if (window.pageYOffset >= 70){
             jQuery('.sidenav-fixed').css({position: 'fixed', left: '0', top: '0'});
+            jQuery('.sidenav').css({position: 'fixed', left: '0', top: '0'});
         }
         else {
             jQuery('.sidenav-fixed').css({position: 'relative', left: '', top: ''});
+            jQuery('.sidenav').css({position: 'relative', left: '0', top: '0'});
         }
     };
     
@@ -33,7 +37,10 @@ $(document).ready(function(){
 
 
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip({
+    container: 'body',
+    boundary: 'window'
+  })
 })
 
 
