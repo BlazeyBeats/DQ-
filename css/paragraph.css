@@ -491,11 +491,11 @@ padding-left: 30px;
   box-shadow: 5px 10px 18px #bbbbbb;
   padding-top: 20px;
   padding-bottom:7px;
-  position: sticky;
+  position: relative;
   top: 0;
   left: 0;
   letter-spacing: 1px;
-  
+
 }
 
 .main-top p{
@@ -604,4 +604,34 @@ height: 30px;
 .footer{
  padding-left: 30px;
  background-color: black;
+}
+.footer .nav p{
+font-size: 12px;
+letter-spacing: 1px;
+margin-top: 10px;
+line-height: 15px;
+padding-top: 10px;
+}
+
+.footer .nav a{
+  font-size: 12px;
+  letter-spacing: 1px;
+  height: 20px;
+  margin: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding:5px;
+  padding-top: 0;
+  padding-left: 10px;
+  }
+
+.text-english{
+  font-size: 8px;
+  padding-right: 10px;
+}  
+
+
+.nav-left{
+  position: absolute;
+  margin-top: 30px;
 }

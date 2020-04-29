@@ -35,28 +35,6 @@ $(document).ready(function(){
 
 
 
-// var elementClicked;
-// $("element").click(function(){
-//    elementClicked = true;
-// });
-// if( elementClicked != true ) {
-//     alert("element not clicked");
-// }else{
-//     alert("element clicked");
-// }
-
-
-
-// jQuery(document).ready(function(){
-//   window.onscroll = function() {
-//       if (window.pageYOffset >= 70){
-//           jQuery('.sidenav-fixed').css({position: 'fixed', left: '0', top: '0'});
-//       }
-//       else {
-//           jQuery('.sidenav-fixed').css({position: 'relative', left: '', top: ''});
-//       }
-//   }
-// });
 
 
 
